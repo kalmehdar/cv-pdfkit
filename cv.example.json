@@ -1,0 +1,68 @@
+{
+  "name": "Sam Patel",
+  "title": "Junior Software Engineer",
+  "email": "sam@example.com",
+  "phone": "+44 7XXX XXX XXX",
+  "location": "London, UK",
+  "website": "https://sampatel.dev",
+  "linkedin": "linkedin.com/in/sampatel",
+  "summary": "Final-year BSc Computer Science student with two years of part-time software engineering experience at a mid-sized fintech. Comfortable shipping production TypeScript across React, Node.js, and Postgres. Looking for a graduate role in backend platform engineering.",
+  "experience": [
+    {
+      "position": "Software Engineering Intern",
+      "company": "Example Fintech Ltd",
+      "dates": "Jun 2025 – Sep 2025",
+      "context": "Payments platform team. London office, hybrid 3 days/week.",
+      "bullets": [
+        "Migrated the merchant-onboarding service from REST to GraphQL using Apollo Server; cut average response time from 340ms to 110ms across 12 endpoints.",
+        "Wrote integration tests for the fraud-detection pipeline using Jest and Testcontainers, raising end-to-end coverage from 41% to 78%.",
+        "Paired with senior engineers on the migration from Heroku to AWS ECS; owned the IAM role review and documented findings in a 6-page report."
+      ]
+    },
+    {
+      "position": "Computing Tutor",
+      "company": "University of Example, School of Computing",
+      "dates": "Oct 2024 – Present",
+      "context": "Tutor for Year 1 'Introduction to Programming' module.",
+      "bullets": [
+        "Run weekly 2-hour lab sessions for groups of ~18 students.",
+        "Marked formative coursework for ~60 students; produced detailed feedback within 5 working days.",
+        "Mentored 4 students through their first hackathon entry; team placed 3rd of 22."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "qualification": "BSc (Hons) Computer Science",
+      "institution": "University of Example",
+      "dates": "Sep 2023 – Jun 2026",
+      "grade": "Predicted First. Final-year modules: Distributed Systems, Machine Learning, Software Architecture, Project (dissertation in progress)."
+    },
+    {
+      "qualification": "A Levels: Maths (A*), Computer Science (A*), Physics (A)",
+      "institution": "Example Sixth Form",
+      "dates": "Sep 2021 – Jun 2023"
+    }
+  ],
+  "competencies": {
+    "headers": ["LANGUAGES", "PLATFORMS", "PRACTICES"],
+    "columns": [
+      ["TypeScript", "Python", "Go (learning)", "SQL"],
+      ["Node.js / Express", "React + Next.js", "Postgres + Redis", "AWS (ECS, S3, IAM)", "Docker"],
+      ["Test-driven dev", "Code review", "CI/CD (GitHub Actions)", "Agile (Scrum)"]
+    ]
+  },
+  "certifications": [
+    "AWS Certified Cloud Practitioner (Feb 2025)",
+    "Microsoft AZ-900 Azure Fundamentals (Aug 2024)"
+  ],
+  "tools": [
+    "VS Code",
+    "Git",
+    "Linear",
+    "Postman",
+    "DataGrip",
+    "Figma"
+  ],
+  "footer": "Right to work in the UK without sponsorship."
+}

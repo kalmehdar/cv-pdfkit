@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+cv.json
+cv-*.json
+!cv.example.json
+*.pdf
+package-lock.json

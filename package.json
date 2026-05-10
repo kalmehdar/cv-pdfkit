@@ -1,0 +1,38 @@
+{
+  "name": "cv-pdfkit",
+  "version": "1.0.0",
+  "description": "Tight, single-page A4 CV generator built on PDFKit. Your data lives in JSON; the layout is one Node script.",
+  "main": "build.js",
+  "bin": {
+    "cv-pdfkit": "./build.js"
+  },
+  "scripts": {
+    "build": "node build.js cv.example.json cv.pdf",
+    "start": "node build.js"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "pdf",
+    "pdfkit",
+    "ats",
+    "single-page",
+    "a4"
+  ],
+  "author": "Khalid Mohamed",
+  "license": "MIT",
+  "dependencies": {
+    "pdfkit": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalmehdar/cv-pdfkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kalmehdar/cv-pdfkit/issues"
+  },
+  "homepage": "https://github.com/kalmehdar/cv-pdfkit#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
