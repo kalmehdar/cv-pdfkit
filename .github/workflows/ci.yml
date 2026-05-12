@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build example CV
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['18', '20', '22']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Syntax check
+        run: node --check build.js
+
+      - name: Install pdfkit
+        run: npm install --no-save pdfkit@^0.18.0
+
+      - name: Build CV from example data
+        run: |
+          node build.js cv.example.json /tmp/cv.pdf
+          test -s /tmp/cv.pdf
+          file /tmp/cv.pdf | grep -q 'PDF document'
+          echo "PDF generated successfully ($(stat -c %s /tmp/cv.pdf) bytes)"
