@@ -1,7 +1,7 @@
 # cv-pdfkit
 
 A tight, single-page A4 CV generator built with [PDFKit](https://pdfkit.org/).
-Your data lives in one JSON file. The layout is ~250 lines of Node.
+Your data lives in one JSON file. The layout is under 300 lines of Node.
 
 ## Why
 
